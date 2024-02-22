@@ -14,10 +14,10 @@
     <title>Furniture Store</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-xl bg-body-tertiary fixed-top px-5 py-3 border-bottom border-success">
+    <nav class="navbar navbar-expand-xl bg-body-tertiary fixed-top px-5 py-3 border-bottom border-success" id="navbar-example2">
       <div class="container-fluid">
         <a class="navbar-brand " href="#"
-    ><i class="fa-solid fa-couch me-1" style="color: #63E6BE"></i>Furniture</a>
+    ><i class="fa-solid fa-couch me-1" style="color: #63E6BE" ></i>Furniture</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,18 +27,18 @@
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <ul class="navbar-nav nav-pills justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active rounded text-light" style="background-color: #63E6BE;" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" href="#slider">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Toprated">Features</a>
+                <a class="nav-link" href="#service">Services</a>
               </li>
               <li class="nav-item  rounded">
                 <a class="nav-link text-danger" href="#call">Call US</a>
               </li>
               <li class="nav-item  rounded">
-                <a class="nav-link text-danger" href="#"><i class="fa-solid fa-cart-shopping fa-lg" style="color: #63E6BE;"></i></a>
+                <a class="nav-link text-danger" href="#feature"><i class="fa-solid fa-cart-shopping fa-lg" style="color: #63E6BE;"></i></a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -67,10 +67,10 @@
     </nav>
 
     <!-- Carsoul Start -->
-    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
-      <div class="carousel-inner">
+    <div id="carouselExampleControlsNoTouching" class="carousel slide scrollspy-example" data-bs-touch="false" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+      <div class="carousel-inner" id="slider">
         <div class="carousel-item active">
-          <img src="https://images5.alphacoders.com/109/1099106.jpg" class="d-block w-100" alt="...">
+          <img src="https://images5.alphacoders.com/109/1099106.jpg" class="d-block w-100"  alt="...">
         </div>
         <div class="carousel-item">
           <img src="https://images6.alphacoders.com/102/1020690.jpg" class="d-block w-100" alt="...">
@@ -91,8 +91,8 @@
 
 
     <!-- Featured -->
-    <div class="container mt-5" id="Toprated">
-      <figure class="text-center">
+    <div class="container mt-5 scrollspy-example bg-body-tertiary" data-bs-spy="scroll" data-bs-target="#navbar-example2"  data-bs-smooth-scroll="true" tabindex="0">
+      <figure class="text-center" id="feature">
         <blockquote class="blockquote">
           <p>Popular Couch design of this season</p>
         </blockquote>
@@ -171,8 +171,8 @@
   </div>
 
   <!-- Our Services -->
-  <div class="container mt-5 mb-5">
-    <figure class="text-center">
+  <div class="container mt-5 mb-5 scrollspy-example"  data-bs-spy="scroll" data-bs-target="#navbar-example2"  data-bs-smooth-scroll="true" tabindex="0">
+    <figure class="text-center" id="service">
       <blockquote class="blockquote">
         <p>Our Services</p>
       </blockquote>
@@ -230,8 +230,8 @@
 
 
     <!-- contact us -->
-    <div class="mt-5" id="call">
-      <h3 class="fs-2 fw-bold text-uppercase pb-3 p-x5 text-center">
+    <div class="mt-5 scrollspy-example" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"  tabindex="0">
+      <h3 class="fs-2 fw-bold text-uppercase pb-3 p-x5 text-center" id="call">
         Contact us
       </h3>
       <hr class="border  border-success border-2 opacity-50">
