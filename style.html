@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <title>Furniture Store</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-xl bg-body-tertiary fixed-top px-5 py-3 border-bottom border-success">
+      <div class="container-fluid">
+        <a class="navbar-brand " href="#"
+    ><i class="fa-solid fa-couch me-1" style="color: #63E6BE"></i>Furniture</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Welcome</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active rounded text-light" style="background-color: #63E6BE;" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Toprated">Features</a>
+              </li>
+              <li class="nav-item  rounded">
+                <a class="nav-link text-danger" href="#call">Call US</a>
+              </li>
+              <li class="nav-item  rounded">
+                <a class="nav-link text-danger" href="#"><i class="fa-solid fa-cart-shopping fa-lg" style="color: #63E6BE;"></i></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categories
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Office sets</a></li>
+                  <li><a class="dropdown-item" href="#">Dining Table</a></li>
+                  <li><a class="dropdown-item" href="#">Living rooms</a></li>
+                  <li><a class="dropdown-item" href="#">Kitchen Decorate</a></li>
+                  <li><a class="dropdown-item" href="#Toprated">Top Rated</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Show All Product</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex " role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carsoul Start -->
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://images5.alphacoders.com/109/1099106.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://images6.alphacoders.com/102/1020690.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://th.bing.com/th/id/R.0b6083b150e3963c429f54c75cc4eb6e?rik=em7CE%2bGaNBR7tA&pid=ImgRaw&r=0" class="d-block w-100 h-100" alt="">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!-- Featured -->
+    <div class="container mt-5" id="Toprated">
+      <figure class="text-center">
+        <blockquote class="blockquote">
+          <p>Popular Couch design of this season</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          This the top rated <cite title="Source Title">Couches</cite>
+        </figcaption>
+      </figure>
+      <hr class="border border-success border-2 opacity-50">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col ">
+            <div class="card border border-bottom-0 border-success">
+              <img src="https://th.bing.com/th/id/R.a968f780dca03a0b77ec2bd639fac820?rik=pcvW9vHVkToSGw&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Simple couch</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn  btn-success">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border border-bottom-0 border-success">
+              <img src="https://th.bing.com/th/id/R.a968f780dca03a0b77ec2bd639fac820?rik=pcvW9vHVkToSGw&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Simple couch</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn  btn-success">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border border-bottom-0 border-success" >
+              <img src="https://th.bing.com/th/id/R.a968f780dca03a0b77ec2bd639fac820?rik=pcvW9vHVkToSGw&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Simple couch</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn  btn-success">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col">
+            <div class="card border border-top-0 border-success">
+              <img src="https://th.bing.com/th/id/R.a968f780dca03a0b77ec2bd639fac820?rik=pcvW9vHVkToSGw&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+              <div class="card-body" >
+                <h5 class="card-title">Simple couch</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn  btn-success">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card border border-top-0 border-success" >
+              <img src="https://th.bing.com/th/id/R.51f52763354226b880bfd46fcbbf7114?rik=qrUb77eyVaEtXg&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+              <div class="card-body" >
+                <h5 class="card-title">Simple couch</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn  btn-success">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card border border-top-0 border-success">
+              <img src="https://th.bing.com/th/id/R.a968f780dca03a0b77ec2bd639fac820?rik=pcvW9vHVkToSGw&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+              <div class="card-body" >
+                <h5 class="card-title">Simple couch</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn  btn-success">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>  
+  </div>
+  </div>
+
+  <!-- Our Services -->
+  <div class="container mt-5 mb-5">
+    <figure class="text-center">
+      <blockquote class="blockquote">
+        <p>Our Services</p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        We promise to provide this <cite title="Source Title">services</cite>
+      </figcaption>
+    </figure>
+    <hr class="border border-success border-2 opacity-50">
+    <div class="container text-center">
+    <div class="row">
+      <div class="col ">
+        <div class="card">
+          <img src="https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+          <div class="card-body" >
+            <h5 class="card-title">CUSTOM MENUS</h5>
+            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad officia quasi itaque voluptates iste, cupiditate saepe eaque a assumenda numquam possimus similique deleniti rerum, dolor sit ratione ipsum? Aut, sapiente.</p>
+            <a href="#" class="btn btn-success">View More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col ">
+        <div class="card ">
+          <img src="https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SMARTEST WAY</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sunt distinctio delectus porro iste, eveniet amet fugiat vero. Nihil voluptate rerum sed magni earum ipsa exercitationem quae a ipsum est?</p>
+            <a href="#" class="btn btn-success">View More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col ">
+        <div class="card">
+          <img src="https://images.pexels.com/photos/3757055/pexels-photo-3757055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+          <div class="card-body" >
+            <h5 class="card-title">USER FRIENDLY</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum velit explicabo dolore nemo voluptatibus fuga ipsam quidem fugiat, labore odit laboriosam culpa adipisci quam aspernatur. Quasi accusantium odit facere necessitatibus.</p>
+            <a href="#" class="btn btn-success">View More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <!-- About Us -->
+    <div class="container mt-5 " style="display: flex; justify-content: space-between; align-items: center;gap: 15px;flex-direction: column;">
+      <div class="text-center">
+        <h3 class="p-2 border-bottom border-success border-2">About us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam laudantium delectus, repudiandae nesciunt eos sed, nemo accusantium assumenda dolorem dignissimos voluptas eaque quasi aut quidem laborum possimus. Ducimus, veniam praesentium?</p>
+     </div>
+      <div class="" >
+       <img src="https://images.pexels.com/photos/5876802/pexels-photo-5876802.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="width: 50vw;height:50vh ; border-radius: 50px;" alt="">
+      </div>
+    </div>
+
+
+    <!-- contact us -->
+    <div class="mt-5" id="call">
+      <h3 class="fs-2 fw-bold text-uppercase pb-3 p-x5 text-center">
+        Contact us
+      </h3>
+      <hr class="border  border-success border-2 opacity-50">
+      <form class="row g-3">
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Full Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress"
+            placeholder="1234 Main St"
+          />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Your Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="inputAddress2"
+            placeholder="Apartment, studio, or floor"
+          />
+        </div>
+        <div class="col-md-12">
+          <label for="inputCity" class="form-label">Your Message</label>
+          <textarea class="form-control" id="inputCity" rows="5"></textarea>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-success px-5 fs-5 ">Send</button>
+        </div>
+      </form>
+    </div>
+
+
+
+     <!-- Footer -->
+     <footer class="text-center text-lg-start bg-body-tertiary text-muted mt-5">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f" style="color: #63E6BE;"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-twitter" style="color: #63E6BE;"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-google" style="color: #63E6BE;"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram" style="color: #63E6BE;"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin" style="color: #63E6BE;"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-github" style="color: #63E6BE;"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3" style="color: #63E6BE;"></i>Company name
+              </h6>
+              <p>
+                Here you can use rows and columns to organize your footer
+                content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+              <p>
+                <a href="#!" class="text-reset">Angular</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">React</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Vue</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Laravel</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+              <p>
+                <a href="#!" class="text-reset">Pricing</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Settings</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Orders</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4" >Contact</h6>
+              <p><i class="fas fa-home me-3 " style="color: #63E6BE;"></i> New York, NY 10012, US</p>
+              <p>
+                <i class="fas fa-envelope me-3" style="color: #63E6BE;"></i>
+                info@example.com
+              </p>
+              <p><i class="fas fa-phone me-3" style="color: #63E6BE;"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print me-3" style="color: #63E6BE;"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-4 border-bottom border-success text-success"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2021 Copyright:
+        <a class="text-reset fw-bold " href="https://mdbootstrap.com/"
+          >MDBootstrap.com</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
